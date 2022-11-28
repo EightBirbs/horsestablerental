@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+    <texts>
+        <text text="Pferde Einsteller" name="horseStableRental_header" />
+        <text text="Stallname" name="horseStableRental_stable_name" />
+        <text text="Futter" name="horseStableRental_food" />
+        <text text="Wasser" name="horseStableRental_water" />
+        <text text="Stroh" name="horseStableRental_straw" />
+        <text text="Automatisch" name="horseStableRental_automatic" />
+        <text text="Vermietung" name="horseStableRental_rentable" />
+        <text text="Einnahmen" name="horseStableRental_income" />
+        <text text="Aktiv" name="horseStableRental_renting_active" />
+        <text text="Inaktiv" name="horseStableRental_renting_inactive" />
+    </texts>
+</l10n>

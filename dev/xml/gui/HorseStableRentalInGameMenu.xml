@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI>
+    <GuiElement profile="uiElementContainerFullScreenSpanning" type="bitmap">
+        <GuiElement profile="uiInGameMenuPaging" type="paging">
+            <GuiElement type="frameReference" id="horseStableRentalPage" name="horseStableRentalIngameMenu" ref="horseStableRentalIngameMenu"/>
+        </GuiElement>
+    </GuiElement>
+</GUI>

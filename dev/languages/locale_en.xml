@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+    <texts>
+        <text text="Horse Stable Rental" name="horseStableRental_header" />
+        <text text="Stable name" name="horseStableRental_stable_name" />
+        <text text="Food" name="horseStableRental_food" />
+        <text text="Water" name="horseStableRental_water" />
+        <text text="Straw" name="horseStableRental_straw" />
+        <text text="Automatic" name="horseStableRental_automatic" />
+        <text text="Renting" name="horseStableRental_rentable" />
+        <text text="Income" name="horseStableRental_income" />
+        <text text="Active" name="horseStableRental_renting_active" />
+        <text text="Inactive" name="horseStableRental_renting_inactive" />
+    </texts>
+</l10n>

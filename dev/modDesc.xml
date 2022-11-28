@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="71">
+	<author>EightBirbs</author>
+	<version>1.0.0.0</version>
+	<iconFilename>modIcon.dds</iconFilename>
+	<multiplayer supported="true"/>
+
+	<title>
+		<en>Horse Stable Rental</en>
+		<de>Pferde Einsteller</de>
+	</title>
+
+	<description>
+        <en>
+        <![CDATA[With the horse stable rental mod, you will only provide the stable space and rent it to horse owners.
+
+Your only duty is to provide the necessary food, water and straw for the horses in the stable. The horse owners will take care of everthing else.
+They will take their horses for a ride and clean them.
+
+As you are only providing the stable and do not own the horses, you won't be able to ride the horses and to sell them using the stable trigger. Those triggers are deactivated for all horse husbandries, if this mod is enabled.
+You are still able to buy and sell horses using the animal shop menu though. If you are interested in the "realism" this mod provides, you shouldn't use the shop to sell the horses of the owners, as they will be unhappy ;-).
+Buying horses in the shop also doesn't make sense, while you are using this mod, as that would be a waste of money, since you cannot ride the horse.
+
+Once you buy and place a horse stable, each hour a horse owner will rent a place in your stable until it's at full capacity.
+
+At the end of the day you will receive the rent from the horse owners, which currently is 150.00 $ per horse, per day.
+
+But be careful, make sure that the horses always have food, water and straw available. If there is no food, water or straw available at the end of the day, the horse owners will punish you, by paying less rent.
+
+To change the renting state of a stable, double click on the table entry in the mods menu.]]>
+        </en>
+        <de>
+        <![CDATA[Mit mit Pferde Einsteller Mod stellst du Stallplätze zur Verfüfung, die von Pferdebesitzern angemietet werden können.
+
+Deine einzige Aufgabe ist es Futter, Wasser und Stroh für die Pferde im Stall zur Verfügung zu stellen. Die Pferdebesitzer kümmern sich um alles andere.
+Sie reiten mit ihren Pferden aus und putzen sie.
+
+Da du die Stallplätze zur Verfügung stellst und die Pferde nicht besitzt, ist es dir nicht möglich die Pferde zu reiten oder über den Stalltrigger zu verkaufen. Diese beiden Trigger sind für alle Pferdestallgebäude deaktiviert, wenn dieser Mod aktiv ist.
+Es ist dennoch möglich über den Tierhändler Pferde zu kaufen und zu verkaufen. Wenn du aber an der Realität interessiert bist, dann solltest du die Pferde der Pferdebesitzer nicht verkaufen, da sie sonst nicht erfreut sein werden ;-)
+Auch der Kauf von Pferden im Shop macht keinen Sinn, wenn man diesen Mod verwendet, da dies eine Geldverschwendung wäre, da man das Pferd nicht reiten kann.
+
+Sobald du ein Pferdestallgebäude kaufst und es platziert hast, mietet pro Stunde ein weiterer Pferdebesitzer einen Platz an, bis alle Plätze im Stall belegt sind.
+
+Am Ende des Tages erhälst du die Miete der Pferdebesitzer. Diese beträgt aktuell 150,00 € pro Tag und Pferd.
+
+Stell aber unbedingt sicher, dass die Pferde immer genug Futter, Wasser und Stroh haben. Sollte dies am Ende des Tages nicht der Fall sein, werden dich die Pferdebesitzer bestrafen, indem sie dir eine geringere Miete bezahlen.
+
+Um den Vermietungsstatus eines Stalls zu verändern, führe einen Doppelklick auf den Tabelleneintrag im Mod Menü.]]>
+        </de>
+    </description>
+    <l10n filenamePrefix="languages/locale"/>
+	<extraSourceFiles>	
+		<sourceFile filename="src/horseStableRental.lua" />
+        <sourceFile filename="src/horseHusbandry.lua" />
+        <sourceFile filename="src/horseStableRentalHelper.lua" />
+        <sourceFile filename="src/horseStableRentalConfig.lua" />
+        <sourceFile filename="src/gui/horseStableRentalInGameMenu.lua" />
+        <sourceFile filename="src/gui/horseStableRentalMenu.lua" />
+	</extraSourceFiles>
+</modDesc>
